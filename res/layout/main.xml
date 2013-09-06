@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="存檔"
+                android:id="@+id/btnSaveFile" android:layout_column="0" android:onClick="onSaveFileClick"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下載"
+                android:id="@+id/btnDownload" android:layout_column="1" android:onClick="onDownloadClick"/>
+    </TableRow>
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info"
+                android:id="@+id/txtMsg" android:layout_column="0" android:autoText="false" android:minLines="10"/>
+    </TableRow>
+</TableLayout>
